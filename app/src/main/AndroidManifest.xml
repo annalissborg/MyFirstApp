@@ -19,7 +19,13 @@
         </activity>
         <activity
             android:name=".DisplayMessageActivity"
-            android:label="@string/title_activity_display_message"></activity>
+            android:label="@string/title_activity_display_message" />
+        <activity
+            android:name=".AcceleratorActivity"
+            android:label="@string/title_activity_accelerator" />
+        <activity
+            android:name=".compassActivity"
+            android:label="@string/title_activity_compass"></activity>
     </application>
 
 </manifest>
