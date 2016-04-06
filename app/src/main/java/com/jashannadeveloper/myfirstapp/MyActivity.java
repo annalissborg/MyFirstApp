@@ -50,4 +50,9 @@ public class MyActivity extends Activity {
         Intent intent = new Intent(this, AcceleratorActivity.class);
         startActivity(intent);
     }
+
+    public void goToCompass(View view){
+        Intent intent = new Intent(this, CompassActivity.class);
+        startActivity(intent);
+    }
 }

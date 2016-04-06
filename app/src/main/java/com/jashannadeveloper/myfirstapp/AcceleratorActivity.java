@@ -7,6 +7,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -18,6 +19,7 @@ http://code.tutsplus.com/tutorials/using-the-accelerometer-on-android--mobile-22
 
     private SensorManager senSensorManager;
     private Sensor senAccelerometer;
+    private ImageView image;
 
     private  RelativeLayout layout;
     private TextView textView;

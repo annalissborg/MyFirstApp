@@ -24,7 +24,7 @@
             android:name=".AcceleratorActivity"
             android:label="@string/title_activity_accelerator" />
         <activity
-            android:name=".compassActivity"
+            android:name=".CompassActivity"
             android:label="@string/title_activity_compass"></activity>
     </application>
 
